@@ -1,0 +1,14 @@
+#Explicá por qué y en qué parte este código da error. 
+#Proponé una solución que no sea pasar por parámetro la variable x, que haga que se imprima el valor de la variable x de alcance1 
+#incrementada en el valor ingresado.
+
+
+x = 4
+def alcance1():
+	def alcance2():
+		incremento = int(input('Ingrese un valor '))
+		x = x + incremento
+		print (x)
+	x = 5
+	alcance2()
+alcance1()
