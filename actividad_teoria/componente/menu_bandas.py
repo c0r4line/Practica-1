@@ -16,7 +16,7 @@ def start():
 
 
 def loop():
-    """Loop de la ventana de menú que capta los eventos al presionar las opciones"""
+    """Loop de la ventana de Consulta Bandas que capta los eventos al presionar las opciones"""
     window = menu_bandas.build()
     archivo_path='/home/alumno/Documentos/actividad_teoria/dataset1.csv'
     
