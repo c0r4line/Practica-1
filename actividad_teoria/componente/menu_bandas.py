@@ -36,6 +36,7 @@ def loop():
             consulta_5_estrellas = lista_5_estrellas[:]
             write_json(consulta_5_estrellas)
             archivo.close()
+            
 
         if event == "-2000-":
             archivo = open(archivo_path,"r") 
@@ -47,6 +48,7 @@ def loop():
             constulta_2000 = lista_2000[:]
             write_json(constulta_2000)
             archivo.close()
+            
 
         if event == "-Atras-":
             window.hide()

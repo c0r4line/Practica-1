@@ -41,7 +41,7 @@ def loop():
             constulta_estadios = estadios_json[:]
             write_json(constulta_estadios)
             archivo.close()
-            break
+          
         if event == "-CAP_ARG-":
             archivo = open(archivo_path,"r") 
             csvreader= csv.reader(archivo,delimiter =',')
@@ -56,7 +56,7 @@ def loop():
             constulta_estadios = estadios_json[:]
             write_json(constulta_estadios)
             archivo.close()
-            break
+           
 
         if event == "-Atras-":
             window.hide()
