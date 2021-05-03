@@ -4,6 +4,7 @@ from componente import inicio
 import csv
 import json
 from collections import Counter
+import os
 
 def write_json(consulta_generada, filename='/home/alumno/Documentos/actividad_teoria/estadios.json'):
     """Escribe en el archivo json la info requerida en la consulta"""
@@ -19,8 +20,7 @@ def start():
 def loop():
     """Loop de la ventana de consulta Estadios que capta los eventos al presionar las opciones"""
     window = menu_estadios.build()
-    archivo_path='/home/alumno/Documentos/actividad_teoria/dataset2.csv'
-
+    archivo_path= os.path.join(os.getcwd(),'dataset2.csv')
     while True:
         event, values = window.read()
 
@@ -58,7 +58,7 @@ def loop():
             archivo.close()
            
 
-        if event == "-Atras-":
+        if event == "-ATRAS-":
             window.hide()
             inicio.start()
             break

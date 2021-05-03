@@ -3,6 +3,7 @@ from ventana import menu_bandas
 from componente import inicio
 import csv
 import json
+import os
 
 def write_json(consulta_generada, filename='/home/alumno/Documentos/actividad_teoria/bandas.json'):
     """Escribe en el archivo json la info requerida en la consulta"""
@@ -18,7 +19,8 @@ def start():
 def loop():
     """Loop de la ventana de Consulta Bandas que capta los eventos al presionar las opciones"""
     window = menu_bandas.build()
-    archivo_path='/home/alumno/Documentos/actividad_teoria/dataset1.csv'
+    archivo_path= os.path.join(os.getcwd(),'dataset1.csv')
+
     
     while True:
         event, values = window.read()
@@ -26,31 +28,34 @@ def loop():
         if event in (sg.WINDOW_CLOSED, "Exit", "-exit-","-Salir-"):
             break
 
-        if event == "-estrellas-":
+        if event == "-ESTRELLAS-":
             archivo = open(archivo_path,"r") 
             csvreader= csv.reader(archivo,delimiter =',')
             encabezado = next(csvreader)
+            nombre_album= []
             lista_5_estrellas = list(filter(lambda columna: columna[13] == '5', csvreader))
-            #for l in lista_5_estrellas:
-            #   print(l[1])    //para chequeo
-            consulta_5_estrellas = lista_5_estrellas[:]
-            write_json(consulta_5_estrellas)
+            for linea in lista_5_estrellas:
+                nombre_album.append(linea[2])
+            write_json(nombre_album)
+            #-----lo que quiero conseguir con esta consulta es imprimir en json la lista resultante..
+            #.. de los NOMBRES DE ALBUMES que tienen rating de exactamente 5 puntos----------
             archivo.close()
             
 
-        if event == "-2000-":
+        if event == "-DOSMIL-":
             archivo = open(archivo_path,"r") 
             csvreader= csv.reader(archivo,delimiter =',')
             encabezado = next(csvreader)
+            nombre_banda = []
             lista_2000 = list(filter(lambda columna: columna[3] >= '2000', csvreader))
-            #for l in lista_2000:
-            #   print(l[1])   //para chequeo
-            constulta_2000 = lista_2000[:]
-            write_json(constulta_2000)
+            for linea in lista_2000:
+                nombre_banda.append(linea[1])
+            write_json(nombre_banda)
+            #-----lo que quiero conseguir con esta consulta es imprimir en json la lista resultante..
+            #.. de los NOMBRES DE LAS BANDAS que lanzaron albumes del 2000 en adelante ----------
             archivo.close()
             
-
-        if event == "-Atras-":
+        if event == "-ATRAS-":
             window.hide()
             inicio.start()
             break

@@ -22,7 +22,6 @@ def loop():
             window.hide()
             menu_bandas.start()
             break
-            #creo q aca hay un loop infinito
         if event == "-DATASET2-":
             window.hide()
             menu_estadios.start()
