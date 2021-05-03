@@ -6,7 +6,7 @@ import json
 from collections import Counter
 import os
 
-def write_json(consulta_generada, filename='/home/alumno/Documentos/actividad_teoria/estadios.json'):
+def write_json(consulta_generada, filename='estadios.json'):
     """Escribe en el archivo json la info requerida en la consulta"""
     with open(filename,'w') as json_file:
         json.dump(consulta_generada, json_file, indent=4)
