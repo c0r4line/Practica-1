@@ -7,8 +7,12 @@ import os
 
 def write_json(consulta_generada, filename='bandas.json'):
     """Escribe en el archivo json la info requerida en la consulta"""
-    with open(filename,'w') as json_file:
-        json.dump(consulta_generada, json_file, indent=4)
+    try:
+        with open(filename,'w') as json_file:
+            print("escribiendo en json")
+            json.dump(consulta_generada, json_file, indent=4)
+    except FileNotFoundError:
+        print("archivo no encontrado")
 
 def start():
     """Lanza la ejecución de la ventana del dataset opcion BANDAS"""
@@ -29,7 +33,11 @@ def loop():
             break
 
         if event == "-ESTRELLAS-":
-            archivo = open(archivo_path,"r") 
+            try:
+                archivo = open(archivo_path,"r") 
+                print("leyendo csv")
+            except FileNotFoundError:
+                print("archivo no encontrado")
             csvreader= csv.reader(archivo,delimiter =',')
             encabezado = next(csvreader)
             nombre_album= []
@@ -43,7 +51,11 @@ def loop():
             
 
         if event == "-DOSMIL-":
-            archivo = open(archivo_path,"r") 
+            try:
+                archivo = open(archivo_path,"r") 
+                print("leyendo csv")
+            except FileNotFoundError:
+                print("archivo no encontrado")
             csvreader= csv.reader(archivo,delimiter =',')
             encabezado = next(csvreader)
             nombre_banda = []

@@ -8,8 +8,12 @@ import os
 
 def write_json(consulta_generada, filename='estadios.json'):
     """Escribe en el archivo json la info requerida en la consulta"""
-    with open(filename,'w') as json_file:
-        json.dump(consulta_generada, json_file, indent=4)
+    try:
+        with open(filename,'w') as json_file:
+            print("escribiendo en json")
+            json.dump(consulta_generada, json_file, indent=4)
+    except FileNotFoundError:
+        print("el archivo no fue encontrado")
 
 def start():
     """Lanza la ejecución de la ventana del dataset opcion ESTADIOS"""
@@ -28,7 +32,11 @@ def loop():
             break
 
         if event == "-CAPACIDAD-":
-            archivo = open(archivo_path,"r") 
+            try:
+                archivo = open(archivo_path,"r") 
+                print("leyendo csv")
+            except FileNotFoundError:
+                print("archivo no encontrado")
             csvreader= csv.reader(archivo,delimiter =',')
             encabezado = next(csvreader)
             maximo= Counter()
@@ -43,7 +51,11 @@ def loop():
             archivo.close()
           
         if event == "-CAP_ARG-":
-            archivo = open(archivo_path,"r") 
+            try:
+                archivo = open(archivo_path,"r") 
+                print("leyendo csv")
+            except FileNotFoundError:
+                print("archivo no encontrado")
             csvreader= csv.reader(archivo,delimiter =',')
             encabezado = next(csvreader)
             maximo= Counter()
