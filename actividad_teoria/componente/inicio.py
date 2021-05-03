@@ -1,6 +1,7 @@
 import PySimpleGUI as sg
 from ventana import inicio
-from componente import menu1
+from componente import menu_bandas
+from componente import menu_estadios
 
 def start():
     """Lanza la ejecución de la ventana INICIO"""
@@ -19,9 +20,11 @@ def loop():
             break
         if event == "-DATASET1-":
             window.hide()
-            menu1.start()
+            menu_bandas.start()
             break
             #creo q aca hay un loop infinito
         if event == "-DATASET2-":
-            pass
+            window.hide()
+            menu_estadios.start()
+            break
     return window

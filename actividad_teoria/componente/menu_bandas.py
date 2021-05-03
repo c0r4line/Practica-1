@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from ventana import menu1
+from ventana import menu_bandas
 from componente import inicio
 import csv
 import json
@@ -17,7 +17,7 @@ def start():
 
 def loop():
     """Loop de la ventana de menú que capta los eventos al presionar las opciones"""
-    window = menu1.build()
+    window = menu_bandas.build()
     archivo_path='/home/alumno/Documentos/actividad_teoria/dataset1.csv'
     
     while True:
@@ -35,7 +35,7 @@ def loop():
             #   print(l[1])    //para chequeo
             consulta_5_estrellas = lista_5_estrellas[:]
             write_json(consulta_5_estrellas)
-            break
+            archivo.close()
 
         if event == "-2000-":
             archivo = open(archivo_path,"r") 
@@ -46,7 +46,8 @@ def loop():
             #   print(l[1])   //para chequeo
             constulta_2000 = lista_2000[:]
             write_json(constulta_2000)
-            
+            archivo.close()
+
         if event == "-Atras-":
             window.hide()
             inicio.start()
