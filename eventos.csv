@@ -1,0 +1,69 @@
+Tiempo,Partida,Cantidad total de palabras a adivinar,Nombre_de_evento,Usuario_nick,Usuario_genero,Usuario_edad,Estado,Palabra,Nivel
+1624144637.7778332,7b8d1998d15411eb9b49a1b2c22aedaa,2,inicio partida,jonny,Masculino,55,,,Nivel 1
+1624144647.5464945,7b8d1998d15411eb9b49a1b2c22aedaa,2,intento,jonny,Masculino,55,error,There Is Nothing Left To Lose,Nivel 1
+1624144650.1653988,7b8d1998d15411eb9b49a1b2c22aedaa,2,intento,jonny,Masculino,55,error,There Is Nothing Left To Lose,Nivel 1
+1624144651.402981,7b8d1998d15411eb9b49a1b2c22aedaa,2,intento,jonny,Masculino,55,ok,There Is Nothing Left To Lose,Nivel 1
+1624144653.1626947,7b8d1998d15411eb9b49a1b2c22aedaa,2,intento,jonny,Masculino,55,ok,Trauma,Nivel 1
+1624144654.276353,7b8d1998d15411eb9b49a1b2c22aedaa,2,fin de partida,jonny,Masculino,55,finalizada,,Nivel 1
+1624144792.235391,d44416d6d15411eb9b49a1b2c22aedaa,8,inicio partida,chichi,Femenino,58,,,Nivel 2
+1624144798.4597194,d44416d6d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,ok,Jagged Little Pill,Nivel 2
+1624144799.8195093,d44416d6d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,ok,Trauma,Nivel 2
+1624144804.9244456,d44416d6d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,El Camino,Nivel 2
+1624144807.535355,d44416d6d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,Tell Me I'm Pretty,Nivel 2
+1624144808.2757797,d44416d6d15411eb9b49a1b2c22aedaa,8,fin de partida,chichi,Femenino,58,abandono,,Nivel 2
+1624144812.7551825,e4bf5e58d15411eb9b49a1b2c22aedaa,8,inicio partida,chichi,Femenino,58,,,Nivel 2
+1624144820.6610172,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,ok,Tell Me I'm Pretty,Nivel 2
+1624144822.4815211,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,ok,El Camino,Nivel 2
+1624144826.3568501,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,Jagged Little Pill,Nivel 2
+1624144827.939874,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,ok,Supernatural,Nivel 2
+1624144832.021375,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,Trauma,Nivel 2
+1624144835.0335495,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,As I Am,Nivel 2
+1624144837.9024115,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,Morning Phase,Nivel 2
+1624144851.2446163,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,Trauma,Nivel 2
+1624144855.3634703,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,Social Cues,Nivel 2
+1624144858.16354,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,ok,Trauma,Nivel 2
+1624144862.0165398,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,Morning Phase,Nivel 2
+1624144864.922054,e4bf5e58d15411eb9b49a1b2c22aedaa,8,intento,chichi,Femenino,58,error,Morning Phase,Nivel 2
+1624144868.762624,e4bf5e58d15411eb9b49a1b2c22aedaa,8,fin de partida,chichi,Femenino,58,timeout,,Nivel 2
+1624146934.0943413,d4f5af5ed15911ebb8c72bc385afba67,2,inicio partida,chichi,Femenino,58,,,Nivel 1
+1624146942.7488515,d4f5af5ed15911ebb8c72bc385afba67,2,intento,chichi,Femenino,58,error,Patty Griffin,Nivel 1
+1624146946.1299958,d4f5af5ed15911ebb8c72bc385afba67,2,intento,chichi,Femenino,58,error,Patty Griffin,Nivel 1
+1624146947.5655632,d4f5af5ed15911ebb8c72bc385afba67,2,intento,chichi,Femenino,58,ok,Patty Griffin,Nivel 1
+1624146949.1651695,d4f5af5ed15911ebb8c72bc385afba67,2,intento,chichi,Femenino,58,ok,Trauma,Nivel 1
+1624146950.496979,d4f5af5ed15911ebb8c72bc385afba67,2,fin de partida,chichi,Femenino,58,finalizada,,Nivel 1
+1624149840.914965,99683f04d16011ebb8c72bc385afba67,8,inicio partida,chichi,Femenino,58,,,Nivel 2
+1624149848.24181,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,ok,amo,Nivel 2
+1624149850.6843545,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,Supernatural,Nivel 2
+1624149852.511921,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,Supernatural,Nivel 2
+1624149853.6953392,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,ok,Sheryl Crow,Nivel 2
+1624149856.9224603,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,21st Century Breakdown,Nivel 2
+1624149859.261844,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,The Resistance,Nivel 2
+1624149861.1424162,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,ok,Supernatural,Nivel 2
+1624149863.04254,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,ok,Trauma,Nivel 2
+1624149865.7639148,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,All That You Can't Leave Behind,Nivel 2
+1624149868.1205623,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,A Deeper Understanding,Nivel 2
+1624149876.486475,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,The Resistance,Nivel 2
+1624149878.824648,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,A Deeper Understanding,Nivel 2
+1624149881.859268,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,The Resistance,Nivel 2
+1624149883.2688072,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,ok,All That You Can't Leave Behind,Nivel 2
+1624149886.4083393,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,error,A Deeper Understanding,Nivel 2
+1624149888.0895188,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,ok,The Resistance,Nivel 2
+1624149890.3719094,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,ok,A Deeper Understanding,Nivel 2
+1624149893.535011,99683f04d16011ebb8c72bc385afba67,8,intento,chichi,Femenino,58,ok,21st Century Breakdown,Nivel 2
+1624149894.989576,99683f04d16011ebb8c72bc385afba67,8,fin de partida,chichi,Femenino,58,finalizada,,Nivel 2
+1624151734.355789,02456778d16511ebb8c72bc385afba67,2,inicio partida,Pepe,otro,22,,,Nivel 1
+1624151743.66383,02456778d16511ebb8c72bc385afba67,2,intento,Pepe,otro,22,error,21st Century Breakdown,Nivel 1
+1624151746.2893429,02456778d16511ebb8c72bc385afba67,2,intento,Pepe,otro,22,error,21st Century Breakdown,Nivel 1
+1624151748.7994134,02456778d16511ebb8c72bc385afba67,2,intento,Pepe,otro,22,error,21st Century Breakdown,Nivel 1
+1624151752.8251505,02456778d16511ebb8c72bc385afba67,2,intento,Pepe,otro,22,error,As I Am,Nivel 1
+1624151758.7189782,02456778d16511ebb8c72bc385afba67,2,intento,Pepe,otro,22,error,As I Am,Nivel 1
+1624151761.7439775,02456778d16511ebb8c72bc385afba67,2,intento,Pepe,otro,22,error,As I Am,Nivel 1
+1624151778.8762288,02456778d16511ebb8c72bc385afba67,2,fin de partida,Pepe,otro,22,timeout,,Nivel 1
+1624159041.4169085,05e56b24d17611ebb8c72bc385afba67,2,inicio partida,Pepe,otro,22,,,Nivel 1
+1624159049.2546194,05e56b24d17611ebb8c72bc385afba67,2,intento,Pepe,otro,22,ok,George Benson,Nivel 1
+1624159050.7011247,05e56b24d17611ebb8c72bc385afba67,2,intento,Pepe,otro,22,ok,Neville Brothers,Nivel 1
+1624159052.147624,05e56b24d17611ebb8c72bc385afba67,2,fin de partida,Pepe,otro,22,finalizada,,Nivel 1
+1624306233.872094,bb796100d2cc11ebb9d5b1d1ccc40a70,2,inicio partida,Tom,otro,22,,,Nivel 1
+1624306241.9532447,bb796100d2cc11ebb9d5b1d1ccc40a70,2,intento,Tom,otro,22,ok,Platoon,Nivel 1
+1624306243.200386,bb796100d2cc11ebb9d5b1d1ccc40a70,2,intento,Tom,otro,22,ok,Don Juan DeMarco,Nivel 1
+1624306244.512565,bb796100d2cc11ebb9d5b1d1ccc40a70,2,fin de partida,Tom,otro,22,finalizada,,Nivel 1
